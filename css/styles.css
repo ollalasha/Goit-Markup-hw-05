@@ -649,6 +649,9 @@ address {
 .container-user-contacts {
   margin-bottom: 8px;
 }
+.container-user-contacts-textarea {
+  margin-bottom: 16px;
+}
 .input-user-textarea::placeholder {
   font-weight: 400;
   font-size: 12px;
