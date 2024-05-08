@@ -491,21 +491,23 @@
         </div>
         <div class="footer-email-container">
           <p class="footer-text-title">Subscribe</p>
-          <label class="footer-label-email" for="footer-email"> </label>
-          <input
-            class="footer-input-email"
-            id="footer-email"
-            name="footer-email"
-            type="email"
-            placeholder="E-mail"
-            required
-          />
-          <button class="footer-button-email" href="" type="submit">
-            Subscribe
-            <svg class="footer-svg-email-button" width="24" height="24">
-              <use href="./images/icons.svg#icon-Frame-3"></use>
-            </svg>
-          </button>
+          <form class="form-footer-email">
+            <label class="footer-label-email">
+              <input
+                class="footer-input-email"
+                name="footer-email"
+                type="email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button class="footer-button-email" type="submit">
+              Subscribe
+              <svg class="footer-svg-email-button" width="24" height="24">
+                <use href="./images/icons.svg#icon-Frame-3"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -564,7 +566,7 @@
                   class="input-user-contacts"
                   type="email"
                   name="user-email"
-                  id="user-amail"
+                  id="user-email"
                   required
                 />
                 <svg class="svg-user-contacts" width="18" height="24">
@@ -578,7 +580,6 @@
               >
               <textarea
                 class="input-user-textarea"
-                type="text"
                 name="user-comment"
                 id="user-comment"
                 placeholder="Text input"
