@@ -73,7 +73,7 @@
 
       <section class="section-our-benefits">
         <div class="container container-benefits">
-          <h2 class="title-our-benefits">Our benefits</h2>
+          <h2 class="visually-hidden">Our benefits</h2>
           <ul class="list-our-benefits">
             <li class="our-benefits-item">
               <div class="container-svg-benefits">
@@ -489,7 +489,124 @@
             </li>
           </ul>
         </div>
+        <div class="footer-email-container">
+          <p class="footer-text-title">Subscribe</p>
+          <label class="footer-label-email" for="footer-email"> </label>
+          <input
+            class="footer-input-email"
+            id="footer-email"
+            name="footer-email"
+            type="email"
+            placeholder="E-mail"
+            required
+          />
+          <button class="footer-button-email" href="" type="submit">
+            Subscribe
+            <svg class="footer-svg-email-button" width="24" height="24">
+              <use href="./images/icons.svg#icon-Frame-3"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
+
+    <!-- ======================   Backdrop  ======================  -->
+    <div class="backdrop">
+      <div class="modal">
+        <button class="modal-close-button" type="button">
+          <svg class="modal-close-button-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+        <div>
+          <p class="modal-title">
+            Leave your contacts and we will call you back
+          </p>
+          <form class="model-form">
+            <div class="container-user-contacts">
+              <label class="label-user-contacts" for="user-first-name"
+                >Name
+              </label>
+              <div class="div-input-svg-contacts">
+                <input
+                  class="input-user-contacts"
+                  type="text"
+                  name="user-first-name"
+                  id="user-first-name"
+                  pattern="a-zA-z"
+                  title="Olga"
+                  required
+                />
+                <svg class="svg-user-contacts" width="18" height="24">
+                  <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="container-user-contacts">
+              <label class="label-user-contacts" for="user-tel">Phone</label>
+              <div class="div-input-svg-contacts">
+                <input
+                  class="input-user-contacts"
+                  type="tel"
+                  name="user-tel"
+                  id="user-tel"
+                  required
+                />
+                <svg class="svg-user-contacts" width="18" height="24">
+                  <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="container-user-contacts">
+              <label class="label-user-contacts" for="user-email">Email</label>
+              <div class="div-input-svg-contacts">
+                <input
+                  class="input-user-contacts"
+                  type="email"
+                  name="user-email"
+                  id="user-amail"
+                  required
+                />
+                <svg class="svg-user-contacts" width="18" height="24">
+                  <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="container-user-contacts">
+              <label class="label-user-contacts" for="user-comment"
+                >Comment</label
+              >
+              <textarea
+                class="input-user-textarea"
+                type="text"
+                name="user-comment"
+                id="user-comment"
+                placeholder="Text input"
+                required
+              ></textarea>
+            </div>
+            <div class="container-user-contacts-checkbox">
+              <input
+                class="input-user-checkbox visually-hidden"
+                type="checkbox"
+                id="privacy-policy"
+                name="privacy-policy"
+                value="true"
+              />
+              <label class="label-user-contacts-checkbox" for="privacy-policy">
+                <span class="checkbox-decoration">
+                  <svg class="svg-checkbox-decoration" width="8" height="10">
+                    <use href="./images/icons.svg#icon-Vector"></use>
+                  </svg>
+                </span>
+                I accept the terms and conditions of the
+                <a class="link-privacy-policy" href=""> Privacy Policy </a>
+              </label>
+            </div>
+            <button class="user-contacts-button" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
