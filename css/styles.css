@@ -674,6 +674,7 @@ address {
   letter-spacing: 0.04em;
   text-align: center;
   color: #ffffff;
+  margin: auto;
 }
 .user-contacts-button:hover {
   background-color: #404bbf;
